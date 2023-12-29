@@ -9,10 +9,6 @@ export const checkLoginAttempts = (
 ) => {
   const email = req.body.email;
   const attempts = loginAttempts[email] || 0;
-  console.log(email);
-
-  console.log({ loginAttempts });
-  console.log({ attempts });
 
   if (attempts >= 3) {
     return res.status(403).json({
@@ -26,10 +22,6 @@ export const checkLoginAttempts = (
 
 export const clearLoginAttemtps = (email: string) => {
   loginAttempts[email];
-
-  console.log('Clear login attemps');
-
-  console.log({ loginAttempts });
 };
 
 export const incrementLoginAttemtps = (email: string) => {

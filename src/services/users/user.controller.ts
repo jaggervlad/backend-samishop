@@ -20,8 +20,6 @@ export class UserController {
   }
 
   getAll = async (req: Request, res: Response, next: NextFunction) => {
-    console.log(req.header('origin'));
-
     try {
       const users = await this.userRespository.getAll();
 
