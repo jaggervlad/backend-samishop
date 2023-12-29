@@ -72,3 +72,7 @@ tu-proyecto/
   }
   ```
 
+### Obtener uruarios  `GET /api/auth/users`
+- **Descripción:** Ruta protegida para poder ver usuarios. para probarla primero debes iniciar sesión y poner el token de logun en el header de Authorization: Bearer {{token}}
+
+
