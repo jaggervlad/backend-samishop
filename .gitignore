@@ -3,5 +3,3 @@ pnpm-lock.yaml
 
 dist
 
-.env
-.env.local
