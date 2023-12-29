@@ -1,4 +1,4 @@
-# Sinapsis API REST
+# SAMI SHOP REST API
 
 Este proyecto es un servicio API desarrollado con Typescript, Express, MongoDB, Bcrypt, JWT. Maneja autenticación y autorización
 de usuarios basados en roles, el tiempo de sesion dura 24 horas y tiene un limite maximo de 3 intentos para iniciar sesion. para poder
